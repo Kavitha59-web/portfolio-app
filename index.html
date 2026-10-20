@@ -9,7 +9,7 @@
 
     <title>Kavitha C P | Portfolio</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -454,9 +454,13 @@
             </div>
 
         </div>
-
+        <div class="hero-image-container">
+    <div class="image-circle">
+        <img src="images/profile.jpg" alt="Kavitha C P">
+    </div>
+</div>
+        
     </section>
-
 
 
     <!-- ==============================
@@ -587,83 +591,84 @@
          CONTACT SECTION
     ================================= -->
 
-    <section id="contact" class="section contact-section">
+<!-- CONTACT SECTION -->
+<section id="contact" class="section contact-section">
 
-        <div class="section-title">
+    <div class="section-title">
+        <p>GET IN TOUCH</p>
+        <h2>Contact Me</h2>
+    </div>
 
-            <p>GET IN TOUCH</p>
+    <div class="contact-layout">
 
-            <h2>
-                Contact Me
-            </h2>
+        <!-- Contact Information Card -->
+        <div class="contact-info">
 
-        </div>
+            <h3>Let's Connect</h3>
 
+            <p class="contact-description">
+                Have a project, internship or job opportunity?
+                Feel free to get in touch with me.
+            </p>
 
-        <div class="contact-container">
+            <a href="mailto:kavithasonukavitha59@gmail.com"
+               class="contact-link">
+                ✉ kavithasonukavitha59@gmail.com
+            </a>
 
-            <div class="contact-text">
+            <a href="https://github.com/Kavitha59-web"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-link">
+                ⌘ GitHub
+            </a>
 
-                <h3>
-                    Let's connect
-                </h3>
-
-                <p>
-                    If you would like to connect with me,
-                    discuss a project or simply say hello,
-                    feel free to reach out.
-                </p>
-
-            </div>
-
-
-            <div class="contact-links">
-
-                <a
-                    href="mailto:yourmail@gmail.com"
-                    class="contact-item">
-
-                    <span>Email</span>
-
-                    <strong>
-                        kavithasonukavitha59@gmail.com"m
-                    </strong>
-
-                </a>
-
-
-                <a
-                    href="#"
-                    class="contact-item">
-
-                    <span>GitHub</span>
-
-                    <strong>
-                        GitHub Profile →
-                    </strong>
-
-                </a>
-
-
-                <a
-                    href="#"
-                    class="contact-item">
-
-                    <span>LinkedIn</span>
-
-                    <strong>
-                        LinkedIn Profile →
-                    </strong>
-
-                </a>
-
-            </div>
+            <a href="#"
+               class="contact-link">
+                in LinkedIn
+            </a>
 
         </div>
 
-    </section>
+        <!-- Contact Form -->
+        <form class="contact-form"
+              action="https://formsubmit.co/kavithasonukavitha59@gmail.com"
+              method="POST">
 
+            <input type="hidden"
+                   name="_subject"
+                   value="New message from Kavitha's portfolio">
 
+            <input type="text"
+                   name="name"
+                   placeholder="Your name"
+                   aria-label="Your name"
+                   autocomplete="name"
+                   required>
+
+            <input type="email"
+                   name="email"
+                   placeholder="Your email"
+                   aria-label="Your email"
+                   autocomplete="email"
+                   required>
+
+            <textarea name="message"
+                      placeholder="Your message"
+                      aria-label="Your message"
+                      required></textarea>
+
+            <button type="submit" class="send-button">
+                Send Message →
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+   
 
     <!-- ==============================
          FOOTER
@@ -679,9 +684,8 @@
 
 
 
-    <!-- JavaScript -->
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 
 </body>
 

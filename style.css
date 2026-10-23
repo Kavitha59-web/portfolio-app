@@ -435,7 +435,7 @@ ul {
    PROFILE IMAGE
 ========================================= */
 
-.hero-image-container {
+.hero-profile-container {
 
     display: flex;
 
@@ -447,7 +447,7 @@ ul {
 
 
 
-.image-circle {
+.profile-circle {
 
     width: 360px;
 
@@ -466,7 +466,7 @@ ul {
 
 
 
-.image-circle img {
+.profile-circle img {
 
     width: 100%;
 
